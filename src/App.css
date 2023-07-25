@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+/* CSS General */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cardBG: hsl(223, 26%, 95%);
+  --cardText: hsl(240, 4%, 5%);
+}
+
+body {
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Inter', sans-serif;
+  margin: 1em;
+  position: relative;
+}
+
+.centrado {
+  text-align: center;
+  vertical-align: middle;
+  color: var(--cardBG);
+}
+
+/* ----------------------------------------------------------- */
+.row-entrada {
+  background: url('../img/dos-perros-y-gatos-114958037.jpg');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: 50% 50%;
+  height: 300px;
+  margin-top: 1%;
+}
+
+.row-entrada h1 {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.carousel img {
+  font-weight: bold;
+  color: var(--cardText);
+  margin-left: 25%;
+}
+
+/* ----------------------------------------------------------- */
+#row-menbresia {
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+.only {
+  border-radius: 20px;
+  margin-left: 15%;
+  margin-right: 30%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.inicio {
+  background: url('../img/banner-blog.jpg');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: 50% 50%;
+  color: var(--cardBG);
+}
+
+/* CSS Accordion */
+.accordion {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.publi {
+  color: var(--cardBG);
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2 {
+  color: var(--cardBG);
+}
+
+/* CSS Formulario */
+.mb-3 {
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--cardBG);
+  margin-top: 5%;
+}
+
+/* CSS Card */
+.card {
+  background: url('../img/shutterstock_142384063.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.card-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: var(--cardBG);
+}
+
+.card-number {
+  text-align: center;
+  font-size: 7em;
+  font-weight: 700;
+}
+
+.card-sub {
+  color: var(--cardBG);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* CSS Contacto */
+.row-contacto {
+  text-align: center;
+}
